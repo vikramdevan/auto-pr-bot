@@ -2,10 +2,9 @@
 
 ## The Video Description
 
-## Base Android Branch
-
-https://github.com/Nerdy-Things/chat-gpt-pr-reviewer/tree/feature/android-dummy-app
+## Base Branch
+https://github.com/vikramdevan/auto-pr-bot/tree/feature/anthos-tf-code
 
 ## Pull Request Example
 
-https://github.com/Nerdy-Things/chat-gpt-pr-reviewer/pull/2
+https://github.com/vikramdevan/auto-pr-bot/pull/2
