@@ -39,7 +39,7 @@ resource "google_container_aws_cluster" "this" {
       enable_components  = ["SYSTEM_COMPONENTS","WORKLOADS"]
     }
    }
-  control_plane {
+  control_plane 
     iam_instance_profile = var.iam_cp_instance_profile    
     instance_type        = var.control_plane_instance_type
     subnet_ids           = var.subnet_ids
@@ -74,7 +74,7 @@ resource "google_container_aws_cluster" "this" {
     pod_address_cidr_blocks     = var.pod_address_cidr_blocks
     service_address_cidr_blocks = var.service_address_cidr_blocks
     vpc_id                      = var.vpc_id
-  }
+  
   fleet {
     project = var.fleet_project
   }
