@@ -85,15 +85,3 @@ resource "google_container_aws_cluster" "this" {
   }
 }
 
-  networking2 {
-    pod_address_cidr_blocks     = 
-    service_address_cidr_blocks = var.service_address_cidr_blocks
-    vpc_id                      = var.vpc_id
-  }
-
-data "google_project" "project2" {
-}
-
-output "project_number" {
-  value = data.google_project.project.number
-}
